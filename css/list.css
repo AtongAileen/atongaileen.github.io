@@ -1,0 +1,125 @@
+.nav{
+    overflow: hidden;
+}
+
+.seckill{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk-list{
+    float: left;
+}
+
+.sk-list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk-content{
+    float: left;
+}
+
+.sk-content ul li a{
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk-content ul li:nth-child(2) a{
+    color: #c81523;
+}
+
+.sk-content ul li:last-child a::after{
+    content:'\f107';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.sk-body ul li{
+    width: 290px;
+    height: 456px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    overflow: hidden;
+    margin-right: 13px;
+}
+
+.sk-body ul li:hover{
+    border: 1px solid #c81523;
+}
+
+.p-text{
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.p-price{
+    color: #e83847;
+    padding: 0 10px;
+}
+
+.p-price i{
+    font-size: 18px;
+    color: #e83847;
+    font-weight: bold;
+}
+
+.p-price span{
+    text-decoration:line-through;
+    color: #a4a4a4;
+    font-weight: bold;
+}
+
+.sold{
+    padding: 0 10px;
+}
+
+.sold-process{
+    width: 132px;
+    height: 13px;
+    border: 1px solid #c81523;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+
+.sold-process div{
+    width: 87%;
+    height: 11.5px;
+    border-radius: 4px 0 0 4px ;
+    background-color: #f24349;
+}
+
+.sold span{
+    font-size: 13px;
+    color: #e83847;
+}
+
+.i-buy{
+    width: 290px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #b1191a;  
+}
+
+.sk-body ul li:nth-child(4n){
+    margin-right: 0;
+}
+
+
+
